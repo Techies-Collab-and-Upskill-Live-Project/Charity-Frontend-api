@@ -22,11 +22,12 @@ export const activitiesdata = [
     {
         id: 5,
         CoverImg: '/assets/humanright_img.jpg',
+        
         text: "Human Rights"
     },
     {
         id: 6,
-        CoverImg:'/assets/dista_img.jpg',
+        CoverImg: '/assets/dista_img.jpg',
         text: "Disaster Relief"
     },
 ];export default activitiesdata;
