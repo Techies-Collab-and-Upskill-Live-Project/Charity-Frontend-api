@@ -15,19 +15,19 @@ const ActivitySection = () => {
                           the world starts with your support.
                         </p>
                     </div>
-                    <div className='grid gap-6 row-gap-5 mb-8 lg:grid-cols-3 sm:row-gap-6 sm:grid-cols-2'>
+                    <div className='grid gap-6 row-gap-5 mb-8 lg:grid-cols-3 sm:row-gap-6 sm:grid-cols-2 mt-10 lg:mt-16'>
                         {activitiesdata.map((activities) => (
                             <div key={activities.id} className='inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2'>
                                 <div className='flex flex-col h-full'>
                                     <img
                                         src={activities.CoverImg}
-                                        className="object-cover w-auto h-auto"
+                                        className="object-cover w-full h-64"
                                         alt={activities.text} 
                                         
                                         />
                                     <div className='flex-grow'>
                                         <div className='p-4'>
-                                            <button className="mt-4 text-[10px] bg-transparent">
+                                            <button className="mt-4 text-[12px] bg-transparent">
                                                 <span className="  text-[#04A38A]  flex items-center justify-center space-x-5">
                                                     Donate Now
                                                     <HiOutlineChevronRight size={15}/>
