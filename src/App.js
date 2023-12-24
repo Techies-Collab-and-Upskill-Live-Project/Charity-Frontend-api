@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 
 import "./style.css";
+import HomePage from './components/Home/HomePage';
 
 // import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -18,9 +19,8 @@ function App() {
     <Router>
          <NavBar />
         <Routes>
-          <Route path="/"
-          // element={<Home />}
-          />
+           <Route path="/" element={<HomePage />} />
+          
           <Route path="/project"
           // element={<Projects />}
           />
