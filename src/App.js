@@ -1,5 +1,5 @@
 import NavBar from './components/Navbar';
-import Footer from './components/footer'
+//import Footer from './components/footer'
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -34,7 +34,7 @@ function App() {
           element={<Navigate to="/"/>}
           />
         </Routes>
-        <Footer />
+       
 
     </Router>
   );
