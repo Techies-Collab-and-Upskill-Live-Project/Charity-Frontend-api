@@ -1,5 +1,6 @@
 import React from 'react'
-import { activitiesdata } from './Data/Data'
+import activitiesdata from '../Data';
+import { HiOutlineChevronRight } from "react-icons/hi2";
 
 const ActivitySection = () => {
     return (
@@ -8,14 +9,36 @@ const ActivitySection = () => {
                 <div className='py-6 md:py-12'>
                     <div className="flex flex-col items-center sm:max-auto">
                         <h2 className="mb-4 tracking-wide text-center "> Explore Our Ongoing Causes</h2>
-                        <div className="w-32 h-1 mb-5 bg-status-purple-70 rounded-b-lg"></div>
-                        <p className="max-w-md font-medium text-center leading-5 text-[#515151] text-md">
+                        <p className="max-w-2xl font-normal text-center leading-5 text-[#515151] text-md">
                           Each cause is a chapter in our collective story of compassion. Explore,
                           engage, and make a lasting impact – because changing
                           the world starts with your support.
                         </p>
                     </div>
-                    <div className=''></div>
+                    <div className='grid gap-6 row-gap-5 mb-8 lg:grid-cols-3 sm:row-gap-6 sm:grid-cols-2'>
+                        {activitiesdata.map((activities) => (
+                            <div key={activities.id} className='inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2'>
+                                <div className='flex flex-col h-full'>
+                                    <img
+                                        src={activities.CoverImg}
+                                        className="object-cover w-auto h-auto"
+                                        alt={activities.text} 
+                                        
+                                        />
+                                    <div className='flex-grow'>
+                                        <div className='p-4'>
+                                            <button className="mt-4 text-[10px] bg-transparent">
+                                                <span className="  text-[#04A38A]  flex items-center justify-center space-x-5">
+                                                    Donate Now
+                                                    <HiOutlineChevronRight size={15}/>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
               </div>
             </div>
         </div>
