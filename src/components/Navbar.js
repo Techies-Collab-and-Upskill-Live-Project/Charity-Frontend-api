@@ -103,7 +103,7 @@ const [navbarOpen, setNavBarOpen] = useState(false);
     //     </Navbar.Collapse>
     //   </Container>
     // </Navbar>
-    <div className=" bg-white w-full">
+    <div className=" bg-white fixed inset-x-0 z-50">
        <div className="flex flex-wrap items-center justify-between py-2 ">
       <div className="container w-full mx-auto px-4 flex flex-wrap items-center justify-between">
          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
