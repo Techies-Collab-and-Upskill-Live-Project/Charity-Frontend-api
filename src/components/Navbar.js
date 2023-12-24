@@ -107,7 +107,7 @@ const [navbarOpen, setNavBarOpen] = useState(false);
        <div className="flex flex-wrap items-center justify-between py-2 ">
       <div className="container w-full mx-auto px-4 flex flex-wrap items-center justify-between">
          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <a href="/" className="">
+            <a href="/" className="inline-block mr-4 py-2">
               <img  className="w-10 h-10" src="/assets/logo.png" alt="logo"/>
             </a>
             <button
@@ -132,9 +132,9 @@ const [navbarOpen, setNavBarOpen] = useState(false);
             <a href="/" className="ml-10 font-medium">Link 2  </a>
             <a href="/" className="ml-10 font-medium">Contact Us</a>
 
-            <div className="flex flex-initial  ml-60">
+            <div className="flex flex-col lg:flex-row items-center justify-center   ml-60">
             <button className="border border-[#04A38A] rounded-md mr-1 py-3 text-[#04A38A] px-5 font-medium">Login</button>
-            <button className="bg-teal-600 border-2 border-teal-600 rounded-md min-w-max ml-5 p-3 px-5 font-medium text-white text-base">Start a Campaign</button>
+            <button className="bg-[#04A38A] border-2 border-[#04A38A] rounded-md min-w-max ml-5 p-3 px-5 font-medium text-white text-base">Start a Campaign</button>
           </div>
           </div>
         </div>
