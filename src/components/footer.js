@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assest/logo.png"
 import { FaInstagram } from "react-icons/fa";
 import { CiFacebook } from "react-icons/ci";
 import { CiTwitter } from "react-icons/ci";
@@ -21,7 +20,7 @@ function Footer() {
         </div>
         <div className= "flex mb-5">
          <div className="ml-14">
-            <a href="/" > <img src={logo} alt="logo" className="w-32 pr-0"  /></a>
+            <a href="/" > <img src="/assets/logo.png" alt="logo" className="w-32 pr-0"  /></a>
          </div>
 
         <div className="flex mt-9">

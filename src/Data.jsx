@@ -1,32 +1,32 @@
 export const activitiesdata = [
     {
         id: 1,
-        CoverImg: '/src/assest/education_image.jpg',
+        CoverImg: '/public/assets/edu_img.jpg',
         text: "Education"
     },
     {
         id: 2,
-        CoverImg: "/src/assest/healthaid_imgage.jpg",
+        CoverImg: "/public/assets/health_img.jpg",
         text: "Health Aid"
     },
     {
         id: 3,
-        CoverImg: '/src/assest/image3.jpg',
+        CoverImg: '/public/assets/poverty_image.jpg',
         text: "Poverty Relief"
     },
     {
         id: 4,
-        CoverImg: '/src/assest/child_image.jpg',
+        CoverImg: '/public/assets/child_img.jpg',
         text: "Child Welfare"
     },
     {
         id: 5,
-        CoverImg: '/src/assest/iimage5.jpg',
+        CoverImg: '/public/assets/humanright_img.jpg',
         text: "Human Rights"
     },
     {
         id: 6,
-        CoverImg:'/src/assest/d_image6.jpg',
+        CoverImg:'/public/assets/dista_img.jpg',
         text: "Disaster Relief"
     },
 ];export default activitiesdata;

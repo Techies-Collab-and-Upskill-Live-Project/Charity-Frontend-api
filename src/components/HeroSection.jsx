@@ -3,7 +3,7 @@ import React from 'react';
 const HeroSection = () => {
   return (
     <section className="hero-section">
-      <div className="w-full bg-center bg-cover h-[40rem] mx-auto bg-[url('assest/hero_image.jpg')]">
+      <div className="w-full bg-center bg-cover h-[40rem] mx-auto bg-[url('/assets/hero_img.jpg')]">
         <div className=' '>
           <div className='px-0'>
             <div className="flex items-center justify-center w-full h-[40rem] bg-gray-900 bg-opacity-50">

@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../assest/logo.png";
-import arrowdown from "../assest/svg/chevron-down.svg"
+
 
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
@@ -110,7 +109,7 @@ function NavBar() {
     // </Navbar>
     <div className="flex mt-5">
       <div className="flex-none w-10 h-14 ml-10">
-        <a href="/"><img src={logo}  alt="Logo" /></a>
+        <a href="/"><img src="/assets/logo.png"  alt="Logo" /></a>
       </div>
 
       <div className="flex-initial w-68 ml-96">
