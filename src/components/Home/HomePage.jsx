@@ -1,7 +1,7 @@
 import React from 'react'
 //import NavBar from '../Navbar'
-import HeroSection from '../HeroSection'
-import ActivitySection from '../ActivitySection'
+import HeroSection from './HeroSection'
+import ActivitySection from './ActivitySection'
 
 const HomePage = () => {
   return (
